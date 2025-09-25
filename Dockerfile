@@ -1,5 +1,5 @@
 # 使用官方的 Python 基础镜像
-FROM python:3.10-slim
+FROM habor.wr.goldwind.com.cn:5000/system/python3:3.10-slime
 
 # 设置工作目录
 WORKDIR /app
